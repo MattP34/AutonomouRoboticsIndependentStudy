@@ -1,0 +1,38 @@
+[0.021s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/ralph': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/ralph -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/ralph
+[0.189s] -- The C compiler identification is GNU 9.3.0
+[0.351s] -- The CXX compiler identification is GNU 9.3.0
+[0.357s] -- Check for working C compiler: /usr/bin/cc
+[0.409s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.410s] -- Detecting C compiler ABI info
+[0.462s] -- Detecting C compiler ABI info - done
+[0.471s] -- Detecting C compile features
+[0.471s] -- Detecting C compile features - done
+[0.474s] -- Check for working CXX compiler: /usr/bin/c++
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.533s] -- Detecting CXX compiler ABI info
+[0.594s] -- Detecting CXX compiler ABI info - done
+[0.604s] -- Detecting CXX compile features
+[0.605s] -- Detecting CXX compile features - done
+[0.608s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.628s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.628s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.799s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.799s]   By not providing "Findopencv2.cmake" in CMAKE_MODULE_PATH this project has
+[0.799s]   asked CMake to find a package configuration file provided by "opencv2", but
+[0.799s]   CMake did not find one.
+[0.799s] 
+[0.799s]   Could not find a package configuration file provided by "opencv2" with any
+[0.800s]   of the following names:
+[0.800s] 
+[0.800s]     opencv2Config.cmake
+[0.800s]     opencv2-config.cmake
+[0.800s] 
+[0.800s]   Add the installation prefix of "opencv2" to CMAKE_PREFIX_PATH or set
+[0.800s]   "opencv2_DIR" to a directory containing one of the above files.  If
+[0.800s]   "opencv2" provides a separate development package or SDK, be sure it has
+[0.800s]   been installed.
+[0.800s] 
+[0.800s] 
+[0.800s] -- Configuring incomplete, errors occurred!
+[0.800s] See also "/home/propp/Independent_Study/ros_workspace/build/ralph/CMakeFiles/CMakeOutput.log".
+[0.802s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/ralph' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/ralph -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/ralph

@@ -1,0 +1,40 @@
+[ 40%] Built target pointcloud_to_laserscan_node
+[ 40%] Built target dummy_pointcloud_publisher
+[ 60%] Built target laserscan_to_pointcloud_node
+[ 80%] Built target pointcloud_to_laserscan
+[100%] Built target laserscan_to_pointcloud
+-- Install configuration: ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node" to ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node" to ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so" to ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/visibility_control.h
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml

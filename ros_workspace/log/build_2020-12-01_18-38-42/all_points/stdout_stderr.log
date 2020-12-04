@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target all_points_trans[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/all_points_trans.dir/src/all_points.cpp.o[0m
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+   51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable all_points_trans[0m
+[100%] Built target all_points_trans
+-- Install configuration: ""
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/package_run_dependencies/all_points
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/parent_prefix_path/all_points
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/ament_prefix_path.sh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/path.sh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/path.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.bash
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.sh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.zsh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/package.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/packages/all_points
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/cmake/all_pointsConfig.cmake
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/cmake/all_pointsConfig-version.cmake
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/package.xml

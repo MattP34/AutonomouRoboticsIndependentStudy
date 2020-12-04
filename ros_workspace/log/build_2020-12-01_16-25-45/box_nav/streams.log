@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o[0m
+[0.294s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kpointcloud_to_laserscan/visibility_control.h: No such file or directory
+[0.294s]    23 | #include [01;31m[K"pointcloud_to_laserscan/visibility_control.h"[m[K
+[0.294s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.294s] compilation terminated.
+[0.297s] make[2]: *** [CMakeFiles/lidar_odometry.dir/build.make:63: CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o] Error 1
+[0.297s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar_odometry.dir/all] Error 2
+[0.297s] make: *** [Makefile:141: all] Error 2
+[0.299s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12

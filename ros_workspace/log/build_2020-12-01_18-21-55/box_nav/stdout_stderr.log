@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o[0m
+[01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kpointcloud_to_laserscan/visibility_control.h: No such file or directory
+   23 | #include [01;31m[K"pointcloud_to_laserscan/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/lidar_odometry.dir/build.make:63: CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar_odometry.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

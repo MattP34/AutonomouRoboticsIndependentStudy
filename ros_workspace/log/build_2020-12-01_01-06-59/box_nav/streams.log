@@ -1,0 +1,12 @@
+[0.017s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[0.035s] CMake Error at CMakeLists.txt:37:
+[0.035s]   Parse error.  Expected "(", got newline with text "
+[0.035s] 
+[0.035s]   ".
+[0.035s] 
+[0.035s] 
+[0.036s] -- Configuring incomplete, errors occurred!
+[0.036s] See also "/home/propp/Independent_Study/ros_workspace/build/box_nav/CMakeFiles/CMakeOutput.log".
+[0.036s] See also "/home/propp/Independent_Study/ros_workspace/build/box_nav/CMakeFiles/CMakeError.log".
+[0.036s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.038s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12

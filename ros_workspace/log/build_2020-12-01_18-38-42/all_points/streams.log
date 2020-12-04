@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/all_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/all_points -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target all_points_trans[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/all_points_trans.dir/src/all_points.cpp.o[0m
+[0.191s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[0.191s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+[0.191s]    51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[0.191s]       |      [01;35m[K^~~~~~~[m[K
+[3.514s] [100%] [32m[1mLinking CXX executable all_points_trans[0m
+[3.705s] [100%] Built target all_points_trans
+[3.713s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/all_points' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/all_points -- -j12 -l12
+[3.731s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/all_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/all_points
+[3.737s] -- Install configuration: ""
+[3.737s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/package_run_dependencies/all_points
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/parent_prefix_path/all_points
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/ament_prefix_path.sh
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/ament_prefix_path.dsv
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/path.sh
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/path.dsv
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.bash
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.sh
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.zsh
+[3.738s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.dsv
+[3.739s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/package.dsv
+[3.739s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/packages/all_points
+[3.740s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/cmake/all_pointsConfig.cmake
+[3.740s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/cmake/all_pointsConfig-version.cmake
+[3.740s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/package.xml
+[3.741s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/all_points' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/all_points

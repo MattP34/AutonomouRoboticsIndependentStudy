@@ -1,0 +1,4 @@
+Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/box_nav
+Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/box_nav

@@ -1,0 +1,10 @@
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/install/local.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/install.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/list_install_components.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/rebuild_cache.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/edit_cache.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/test.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/all_points_trans.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/install/strip.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/all_points_uninstall.dir
+/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/uninstall.dir

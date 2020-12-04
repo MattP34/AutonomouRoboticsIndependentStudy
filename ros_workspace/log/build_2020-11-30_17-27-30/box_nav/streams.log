@@ -1,0 +1,198 @@
+[0.016s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target lidar_odometry[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o[0m
+[0.171s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[0.171s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+[0.171s]    51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[0.171s]       |      [01;35m[K^~~~~~~[m[K
+[1.112s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid OdometryFromLidar::topic_callback(std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[1.112s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:54:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.112s]    54 |         sensor_msgs::[01;35m[KconvertPointCloud2ToPointCloud[m[K(*msg,p1);
+[1.112s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.112s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[1.112s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.112s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.112s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.112s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:54:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.112s]    54 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+[1.112s]       |                                                            [01;35m[K^[m[K
+[1.112s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[1.112s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.112s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.112s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.112s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:54:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.112s]    54 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+[1.113s]       |                                                            [01;35m[K^[m[K
+[1.113s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[1.113s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.113s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.113s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.121s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.122s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.122s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.122s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.122s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.122s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.122s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.123s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.123s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.123s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.123s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:21[m[K:
+[1.123s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:[m[K In static member function ‘[01m[Kstatic double OdometryFromLidar::determine_offset_helper(std::vector<geometry_msgs::msg::Point32_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point32_<std::allocator<void> > > >, std::vector<geometry_msgs::msg::Point32_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point32_<std::allocator<void> > > >)[m[K’:
+[1.123s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:179:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.123s]   179 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 1", "test2");
+[1.123s]       |                     [01;31m[K^~~~[m[K
+[1.123s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:179:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.124s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:179:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.124s]   179 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 1", "test2");
+[1.124s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.124s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:179:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.124s]   179 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 1", "test2");
+[1.124s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.124s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:179:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.124s]   179 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 1", "test2");
+[1.124s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.124s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.124s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.124s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.125s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:21[m[K:
+[1.125s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:179:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.125s]   179 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 1", "test2");
+[1.125s]       |                     [01;31m[K^~~~[m[K
+[1.126s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:179:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.126s]   179 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 1", "test2");
+[1.126s]       |                     [01;31m[K^~~~[m[K
+[1.126s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.127s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.127s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:21[m[K:
+[1.127s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:211:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.127s]   211 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 2", "test2");
+[1.127s]       |                         [01;31m[K^~~~[m[K
+[1.127s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:211:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.127s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:211:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.127s]   211 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 2", "test2");
+[1.127s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.127s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:211:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.127s]   211 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 2", "test2");
+[1.128s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.128s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:211:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.128s]   211 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 2", "test2");
+[1.128s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.128s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.128s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.128s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.128s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.128s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.128s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.128s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.129s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:21[m[K:
+[1.129s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:211:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.129s]   211 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 2", "test2");
+[1.129s]       |                         [01;31m[K^~~~[m[K
+[1.129s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:211:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.129s]   211 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 2", "test2");
+[1.129s]       |                         [01;31m[K^~~~[m[K
+[1.129s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.130s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:21[m[K:
+[1.130s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:213:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.130s]   213 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 3", "test2");
+[1.130s]       |                         [01;31m[K^~~~[m[K
+[1.131s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:213:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.131s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:213:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.131s]   213 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 3", "test2");
+[1.131s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.131s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:213:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.131s]   213 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 3", "test2");
+[1.131s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.131s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:213:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.131s]   213 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 3", "test2");
+[1.131s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.131s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.131s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.132s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.132s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.132s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.132s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.132s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.132s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.132s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.132s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.132s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:21[m[K:
+[1.132s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:213:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.132s]   213 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 3", "test2");
+[1.133s]       |                         [01;31m[K^~~~[m[K
+[1.133s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:213:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.133s]   213 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 3", "test2");
+[1.133s]       |                         [01;31m[K^~~~[m[K
+[1.133s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.133s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.133s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.133s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.133s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.133s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.133s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.133s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.134s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.134s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.134s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:21[m[K:
+[1.134s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:216:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.134s]   216 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 4", "test2");
+[1.134s]       |                     [01;31m[K^~~~[m[K
+[1.134s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:216:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.134s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:216:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.134s]   216 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 4", "test2");
+[1.134s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.134s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:216:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.134s]   216 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 4", "test2");
+[1.134s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.135s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:216:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.135s]   216 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "published: 4", "test2");
+[1.135s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.135s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.136s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.136s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:21[m[K:
+[1.136s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:216:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.136s]   216 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 4", "test2");
+[1.136s]       |                     [01;31m[K^~~~[m[K
+[1.136s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:216:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[1.136s]   216 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "published: 4", "test2");
+[1.136s]       |                     [01;31m[K^~~~[m[K
+[2.469s] make[2]: *** [CMakeFiles/lidar_odometry.dir/build.make:63: CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o] Error 1
+[2.469s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar_odometry.dir/all] Error 2
+[2.469s] make: *** [Makefile:141: all] Error 2
+[2.471s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12

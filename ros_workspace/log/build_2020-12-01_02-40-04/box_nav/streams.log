@@ -1,0 +1,11 @@
+[0.006s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/opt/ros/foxy LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[0.038s] [35m[1mScanning dependencies of target lidar_odometry[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o[0m
+[0.152s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kpointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp: No such file or directory
+[0.152s]    23 | #include [01;31m[K"pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp"[m[K
+[0.153s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.153s] compilation terminated.
+[0.153s] make[2]: *** [CMakeFiles/lidar_odometry.dir/build.make:63: CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o] Error 1
+[0.154s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar_odometry.dir/all] Error 2
+[0.154s] make: *** [Makefile:141: all] Error 2
+[0.156s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '2': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/opt/ros/foxy LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12

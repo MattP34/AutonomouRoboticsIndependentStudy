@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[0.042s] [35m[1mScanning dependencies of target lidar_odometry[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o[0m
+[0.160s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[0.160s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+[0.161s]    51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[0.161s]       |      [01;35m[K^~~~~~~[m[K
+[0.200s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:32[m[K:
+[0.200s] [01m[K/opt/ros/foxy/include/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp:59:10:[m[K [01;31m[Kfatal error: [m[Kpointcloud_to_laserscan/visibility_control.h: No such file or directory
+[0.200s]    59 | #include [01;31m[K"pointcloud_to_laserscan/visibility_control.h"[m[K
+[0.200s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.200s] compilation terminated.
+[0.203s] make[2]: *** [CMakeFiles/lidar_odometry.dir/build.make:63: CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o] Error 1
+[0.203s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar_odometry.dir/all] Error 2
+[0.203s] make: *** [Makefile:141: all] Error 2
+[0.206s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12

@@ -1,0 +1,3 @@
+[console_scripts]
+ralph_node = ralph_py.ralph:main
+

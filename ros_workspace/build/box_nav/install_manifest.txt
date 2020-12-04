@@ -1,0 +1,16 @@
+/home/propp/Independent_Study/ros_workspace/install/box_nav/lib/box_nav/lidar_odometry
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/package_run_dependencies/box_nav
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/parent_prefix_path/box_nav
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.sh
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.dsv
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.sh
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.dsv
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.bash
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.sh
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.zsh
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.dsv
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.dsv
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/packages/box_nav
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig.cmake
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig-version.cmake
+/home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.xml

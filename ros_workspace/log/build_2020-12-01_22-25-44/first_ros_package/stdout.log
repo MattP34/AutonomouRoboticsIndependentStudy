@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target odometryTfConverter[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odometryTfConverter.dir/src/odometry_to_tf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable odometryTfConverter[0m
+[100%] Built target odometryTfConverter
+-- Install configuration: ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter
+-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter" to ""
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/package_run_dependencies/first_ros_package
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/parent_prefix_path/first_ros_package
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.sh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.bash
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.sh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.zsh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/packages/first_ros_package
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig.cmake
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig-version.cmake
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.xml

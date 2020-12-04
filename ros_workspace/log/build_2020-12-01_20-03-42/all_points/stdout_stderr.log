@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target all_points_trans[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/all_points_trans.dir/src/all_points.cpp.o[0m
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+   51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:[m[K In member function ‘[01m[Kvoid AllPointsPublisher::topic_callback(std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:51:66:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   51 |             iter_x != iter_x.end(); ++iter_x, ++iter_y, ++iter_z,[01;35m[Kiter_intensity[m[K)
+      |                                                                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:90:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   90 |         for(int i = 0; [01;35m[Ki < scan_msg->ranges.size()[m[K; i++) {
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:93:45:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::unique_ptr<_Tp, _Dp>::unique_ptr(const std::unique_ptr<_Tp, _Dp>&) [with _Tp = sensor_msgs::msg::LaserScan_<std::allocator<void> >; _Dp = std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > >][m[K’
+   93 |         laserScanPublisher->publish(scan_msg[01;31m[K)[m[K;
+      |                                             [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:3[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:414:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  414 |       [01;36m[Kunique_ptr[m[K(const unique_ptr&) = delete;
+      |       [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > >][m[K’
+  185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/all_points_trans.dir/build.make:63: CMakeFiles/all_points_trans.dir/src/all_points.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/all_points_trans.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/ralph_py/ralph_py.egg-info
+writing ../../build/ralph_py/ralph_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/ralph_py/ralph_py.egg-info/dependency_links.txt
+writing entry points to ../../build/ralph_py/ralph_py.egg-info/entry_points.txt
+writing requirements to ../../build/ralph_py/ralph_py.egg-info/requires.txt
+writing top-level names to ../../build/ralph_py/ralph_py.egg-info/top_level.txt
+writing manifest file '../../build/ralph_py/ralph_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/ralph_py/ralph_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/ralph_py/ralph_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/propp/Independent_Study/ros_workspace/build/ralph_py/build
+creating /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib
+creating /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py
+copying ralph_py/ralph.py -> /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py
+copying ralph_py/core_opencv_bridge.py -> /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py
+copying ralph_py/__init__.py -> /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py
+running install
+running install_lib
+creating /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py
+copying /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py/ralph.py -> /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py
+copying /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py/core_opencv_bridge.py -> /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py
+copying /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py/__init__.py -> /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py
+byte-compiling /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py/ralph.py to ralph.cpython-38.pyc
+byte-compiling /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py/core_opencv_bridge.py to core_opencv_bridge.cpython-38.pyc
+byte-compiling /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/propp/Independent_Study/ros_workspace/install/ralph_py/share/ament_index
+creating /home/propp/Independent_Study/ros_workspace/install/ralph_py/share/ament_index/resource_index
+creating /home/propp/Independent_Study/ros_workspace/install/ralph_py/share/ament_index/resource_index/packages
+copying resource/ralph_py -> /home/propp/Independent_Study/ros_workspace/install/ralph_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/propp/Independent_Study/ros_workspace/install/ralph_py/share/ralph_py
+running install_egg_info
+Copying ../../build/ralph_py/ralph_py.egg-info to /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ralph_node script to /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/ralph_py
+writing list of installed files to '/home/propp/Independent_Study/ros_workspace/build/ralph_py/install.log'

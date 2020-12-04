@@ -1,0 +1,29 @@
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+   51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid OdometryFromLidar::topic_callback(std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:54:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+   54 |         sensor_msgs::[01;35m[KconvertPointCloud2ToPointCloud[m[K(*msg,p1);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:54:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+   54 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+      |                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:54:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+   54 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+      |                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:58:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point32_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point32_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   58 |             for(int i = 0; [01;35m[Ki < p1.points.size()[m[K; i++) {
+      |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K

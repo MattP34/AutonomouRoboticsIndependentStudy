@@ -1,0 +1,35 @@
+-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.13.6 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.6 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found slam_toolbox: 2.3.0 (/opt/ros/foxy/share/slam_toolbox/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+CMake Error at CMakeLists.txt:28 (find_package):
+  By not providing "Findlibeigen.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "libeigen",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "libeigen" with any
+  of the following names:
+
+    libeigenConfig.cmake
+    libeigen-config.cmake
+
+  Add the installation prefix of "libeigen" to CMAKE_PREFIX_PATH or set
+  "libeigen_DIR" to a directory containing one of the above files.  If
+  "libeigen" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/propp/Independent_Study/ros_workspace/build/box_nav/CMakeFiles/CMakeOutput.log".
+See also "/home/propp/Independent_Study/ros_workspace/build/box_nav/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266: cmake_check_build_system] Error 1

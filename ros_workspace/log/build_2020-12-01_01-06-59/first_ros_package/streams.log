@@ -1,0 +1,2 @@
+[0.015s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[0.065s] [100%] Built target odometryTfConverter

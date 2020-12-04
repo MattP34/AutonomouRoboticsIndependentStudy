@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ralph_py/ralph_py.egg-info/PKG-INFO
+../../build/ralph_py/ralph_py.egg-info/SOURCES.txt
+../../build/ralph_py/ralph_py.egg-info/dependency_links.txt
+../../build/ralph_py/ralph_py.egg-info/entry_points.txt
+../../build/ralph_py/ralph_py.egg-info/requires.txt
+../../build/ralph_py/ralph_py.egg-info/top_level.txt
+../../build/ralph_py/ralph_py.egg-info/zip-safe
+ralph_py/__init__.py
+ralph_py/ralph.py
+resource/ralph_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

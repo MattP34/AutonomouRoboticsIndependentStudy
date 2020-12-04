@@ -1,0 +1,2 @@
+Invoking command in '/home/propp/Independent_Study/ros_workspace/build/ralph': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/ralph -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/ralph
+Invoked command in '/home/propp/Independent_Study/ros_workspace/build/ralph' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/ralph -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/ralph

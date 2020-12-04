@@ -1,0 +1,4 @@
+Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/first_ros_package
+Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/first_ros_package

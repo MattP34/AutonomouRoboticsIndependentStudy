@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (-) JobUnselected: {'identifier': 'all_points'}
+[0.000784] (-) JobUnselected: {'identifier': 'box_nav'}
+[0.000828] (-) JobUnselected: {'identifier': 'ralph'}
+[0.000865] (-) JobUnselected: {'identifier': 'ralph_py'}
+[0.000894] (first_ros_package) JobQueued: {'identifier': 'first_ros_package', 'dependencies': OrderedDict()}
+[0.001227] (first_ros_package) JobStarted: {'identifier': 'first_ros_package'}
+[0.010569] (first_ros_package) JobProgress: {'identifier': 'first_ros_package', 'progress': 'cmake'}
+[0.011124] (first_ros_package) JobProgress: {'identifier': 'first_ros_package', 'progress': 'build'}
+[0.011831] (first_ros_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/propp/Independent_Study/ros_workspace/build/first_ros_package', '--', '-j12', '-l12'], 'cwd': '/home/propp/Independent_Study/ros_workspace/build/first_ros_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'propp'), ('SSH_AGENT_PID', '1924'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/propp'), ('OLDPWD', '/home/propp/Independent_Study/ros_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/opt/gradle/gradle-6.1'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1748'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/propp/ros2_foxy/ros2-linux'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'propp'), ('JOURNAL_STREAM', '9:46648'), ('_', '/home/propp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'propp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/propp/.local/bin:/opt/gradle/gradle-6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Propp-PC:@/tmp/.ICE-unix/1960,unix/Propp-PC:/tmp/.ICE-unix/1960'), ('INVOCATION_ID', 'a95687e30d1a4ea4b8fef2fc785463fa'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d03b7936_e6f4_4958_bb65_2364a1cdc7df'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/ralph_py:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/home/propp/Independent_Study/ros_workspace/install/all_points:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/propp/Independent_Study/ros_workspace/build/first_ros_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/ralph_py:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/home/propp/Independent_Study/ros_workspace/install/all_points:/opt/ros/foxy')]), 'shell': False}
+[0.076804] (first_ros_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target odometryTfConverter\x1b[0m\n'}
+[0.099994] (-) TimerEvent: {}
+[0.101921] (first_ros_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odometryTfConverter.dir/src/odometry_to_tf.cpp.o\x1b[0m\n'}
+[0.200078] (-) TimerEvent: {}
+[0.300321] (-) TimerEvent: {}
+[0.400579] (-) TimerEvent: {}
+[0.500834] (-) TimerEvent: {}
+[0.601058] (-) TimerEvent: {}
+[0.701321] (-) TimerEvent: {}
+[0.801596] (-) TimerEvent: {}
+[0.901850] (-) TimerEvent: {}
+[1.002091] (-) TimerEvent: {}
+[1.102361] (-) TimerEvent: {}
+[1.202627] (-) TimerEvent: {}
+[1.302879] (-) TimerEvent: {}
+[1.403105] (-) TimerEvent: {}
+[1.503356] (-) TimerEvent: {}
+[1.603631] (-) TimerEvent: {}
+[1.703906] (-) TimerEvent: {}
+[1.804191] (-) TimerEvent: {}
+[1.904419] (-) TimerEvent: {}
+[2.004696] (-) TimerEvent: {}
+[2.104929] (-) TimerEvent: {}
+[2.205220] (-) TimerEvent: {}
+[2.305522] (-) TimerEvent: {}
+[2.405748] (-) TimerEvent: {}
+[2.506012] (-) TimerEvent: {}
+[2.606264] (-) TimerEvent: {}
+[2.706514] (-) TimerEvent: {}
+[2.806735] (-) TimerEvent: {}
+[2.906956] (-) TimerEvent: {}
+[3.007203] (-) TimerEvent: {}
+[3.107682] (-) TimerEvent: {}
+[3.208034] (-) TimerEvent: {}
+[3.308337] (-) TimerEvent: {}
+[3.408638] (-) TimerEvent: {}
+[3.508945] (-) TimerEvent: {}
+[3.609231] (-) TimerEvent: {}
+[3.709599] (-) TimerEvent: {}
+[3.809838] (-) TimerEvent: {}
+[3.910092] (-) TimerEvent: {}
+[4.010352] (-) TimerEvent: {}
+[4.110591] (-) TimerEvent: {}
+[4.210841] (-) TimerEvent: {}
+[4.231168] (first_ros_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable odometryTfConverter\x1b[0m\n'}
+[4.310927] (-) TimerEvent: {}
+[4.411200] (-) TimerEvent: {}
+[4.481319] (first_ros_package) StdoutLine: {'line': b'[100%] Built target odometryTfConverter\n'}
+[4.490828] (first_ros_package) CommandEnded: {'returncode': 0}
+[4.510684] (first_ros_package) JobProgress: {'identifier': 'first_ros_package', 'progress': 'install'}
+[4.511608] (-) TimerEvent: {}
+[4.519653] (first_ros_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/propp/Independent_Study/ros_workspace/build/first_ros_package'], 'cwd': '/home/propp/Independent_Study/ros_workspace/build/first_ros_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'propp'), ('SSH_AGENT_PID', '1924'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/propp'), ('OLDPWD', '/home/propp/Independent_Study/ros_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/opt/gradle/gradle-6.1'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1748'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/propp/ros2_foxy/ros2-linux'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'propp'), ('JOURNAL_STREAM', '9:46648'), ('_', '/home/propp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'propp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/propp/.local/bin:/opt/gradle/gradle-6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Propp-PC:@/tmp/.ICE-unix/1960,unix/Propp-PC:/tmp/.ICE-unix/1960'), ('INVOCATION_ID', 'a95687e30d1a4ea4b8fef2fc785463fa'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d03b7936_e6f4_4958_bb65_2364a1cdc7df'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/ralph_py:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/home/propp/Independent_Study/ros_workspace/install/all_points:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/propp/Independent_Study/ros_workspace/build/first_ros_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/ralph_py:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/home/propp/Independent_Study/ros_workspace/install/all_points:/opt/ros/foxy')]), 'shell': False}
+[4.526509] (first_ros_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.526745] (first_ros_package) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter\n'}
+[4.528459] (first_ros_package) StdoutLine: {'line': b'-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter" to ""\n'}
+[4.528682] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/package_run_dependencies/first_ros_package\n'}
+[4.528782] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/parent_prefix_path/first_ros_package\n'}
+[4.528865] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.sh\n'}
+[4.528940] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.dsv\n'}
+[4.529023] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.sh\n'}
+[4.529090] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.dsv\n'}
+[4.529142] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.bash\n'}
+[4.529196] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.sh\n'}
+[4.529250] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.zsh\n'}
+[4.529301] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.dsv\n'}
+[4.529355] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.dsv\n'}
+[4.529404] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/packages/first_ros_package\n'}
+[4.529454] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig.cmake\n'}
+[4.529504] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig-version.cmake\n'}
+[4.529561] (first_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.xml\n'}
+[4.530497] (first_ros_package) CommandEnded: {'returncode': 0}
+[4.569559] (first_ros_package) JobEnded: {'identifier': 'first_ros_package', 'rc': 0}
+[4.570301] (-) EventReactorShutdown: {}

@@ -1,0 +1,36 @@
+[0.017s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[0.038s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.217s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.240s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.376s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.377s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.492s] -- Found tf2: 0.13.6 (/opt/ros/foxy/share/tf2/cmake)
+[0.531s] -- Found tf2_ros: 0.13.6 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.798s] -- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.860s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.983s] -- Configuring done
+[0.995s] -- Generating done
+[0.996s] -- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/box_nav
+[1.034s] [100%] Built target lidar_odometry
+[1.042s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[1.061s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/box_nav
+[1.067s] -- Install configuration: ""
+[1.068s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/package_run_dependencies/box_nav
+[1.068s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/parent_prefix_path/box_nav
+[1.068s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.sh
+[1.068s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.dsv
+[1.068s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.sh
+[1.068s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.dsv
+[1.068s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.bash
+[1.068s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.sh
+[1.068s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.zsh
+[1.068s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.dsv
+[1.068s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.dsv
+[1.069s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/packages/box_nav
+[1.069s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig.cmake
+[1.069s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig-version.cmake
+[1.069s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.xml
+[1.071s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/box_nav

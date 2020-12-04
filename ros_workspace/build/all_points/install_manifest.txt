@@ -1,0 +1,16 @@
+/home/propp/Independent_Study/ros_workspace/install/all_points/lib/all_points/all_points_trans
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/package_run_dependencies/all_points
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/parent_prefix_path/all_points
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/ament_prefix_path.sh
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/ament_prefix_path.dsv
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/path.sh
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/path.dsv
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.bash
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.sh
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.zsh
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.dsv
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/package.dsv
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/packages/all_points
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/cmake/all_pointsConfig.cmake
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/cmake/all_pointsConfig-version.cmake
+/home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/package.xml

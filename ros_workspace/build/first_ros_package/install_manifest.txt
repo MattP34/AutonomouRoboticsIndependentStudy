@@ -1,0 +1,16 @@
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/package_run_dependencies/first_ros_package
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/parent_prefix_path/first_ros_package
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.sh
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.dsv
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.sh
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.dsv
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.bash
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.sh
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.zsh
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.dsv
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.dsv
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/packages/first_ros_package
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig.cmake
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig-version.cmake
+/home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.xml

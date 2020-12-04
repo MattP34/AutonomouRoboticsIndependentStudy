@@ -1,0 +1,46 @@
+[35m[1mScanning dependencies of target all_points_trans[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/all_points_trans.dir/src/all_points.cpp.o[0m
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+   51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:[m[K In member function ‘[01m[Kvoid AllPointsPublisher::topic_callback(std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:30:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+   30 |         sensor_msgs::[01;35m[KconvertPointCloud2ToPointCloud[m[K(*msg,p1);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:30:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+   30 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+      |                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:30:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+   30 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+      |                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable all_points_trans[0m
+[100%] Built target all_points_trans
+-- Install configuration: ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/package_run_dependencies/all_points
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/parent_prefix_path/all_points
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/ament_prefix_path.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/ament_prefix_path.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/path.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/environment/path.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.bash
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.zsh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/local_setup.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/package.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/ament_index/resource_index/packages/all_points
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/cmake/all_pointsConfig.cmake
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/cmake/all_pointsConfig-version.cmake
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/all_points/share/all_points/package.xml

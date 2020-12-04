@@ -1,0 +1,24 @@
+[0.019s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/all_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/all_points -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/all_points
+[0.033s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.199s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.353s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.354s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.471s] -- Found tf2: 0.13.6 (/opt/ros/foxy/share/tf2/cmake)
+[0.508s] -- Found tf2_ros: 0.13.6 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.775s] -- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.834s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.894s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:66 (message):
+[0.894s]   ament_target_dependencies() the passed package name
+[0.894s]   'pointcloud_to_laserscan' was not found before
+[0.894s] Call Stack (most recent call first):
+[0.894s]   CMakeLists.txt:33 (ament_target_dependencies)
+[0.894s] 
+[0.894s] 
+[0.896s] -- Configuring incomplete, errors occurred!
+[0.896s] See also "/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/CMakeOutput.log".
+[0.896s] See also "/home/propp/Independent_Study/ros_workspace/build/all_points/CMakeFiles/CMakeError.log".
+[0.901s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/all_points' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/all_points -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/all_points

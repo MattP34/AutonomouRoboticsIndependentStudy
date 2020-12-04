@@ -1,0 +1,69 @@
+[0.014s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/first_ros_package -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/first_ros_package
+[0.054s] -- The C compiler identification is GNU 9.3.0
+[0.095s] -- The CXX compiler identification is GNU 9.3.0
+[0.099s] -- Check for working C compiler: /usr/bin/cc
+[0.150s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.151s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.222s] -- Detecting C compile features
+[0.222s] -- Detecting C compile features - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.289s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.361s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.381s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.381s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.531s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.561s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.627s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.643s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.742s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.745s] -- Looking for pthread.h
+[0.799s] -- Looking for pthread.h - found
+[0.799s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.853s] -- Looking for pthread_create in pthreads
+[0.897s] -- Looking for pthread_create in pthreads - not found
+[0.897s] -- Looking for pthread_create in pthread
+[0.950s] -- Looking for pthread_create in pthread - found
+[0.951s] -- Found Threads: TRUE  
+[1.068s] -- Found tf2: 0.13.6 (/opt/ros/foxy/share/tf2/cmake)
+[1.106s] -- Found tf2_ros: 0.13.6 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.377s] -- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.434s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.538s] -- Configuring done
+[1.548s] -- Generating done
+[1.549s] -- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/first_ros_package
+[1.557s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/first_ros_package -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/first_ros_package
+[1.559s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[1.592s] [35m[1mScanning dependencies of target odometryTfConverter[0m
+[1.631s] [ 50%] [32mBuilding CXX object CMakeFiles/odometryTfConverter.dir/src/odometry_to_tf.cpp.o[0m
+[5.423s] [100%] [32m[1mLinking CXX executable odometryTfConverter[0m
+[5.624s] [100%] Built target odometryTfConverter
+[5.632s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[5.653s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/first_ros_package
+[5.659s] -- Install configuration: ""
+[5.660s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter
+[5.661s] -- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter" to ""
+[5.661s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/package_run_dependencies/first_ros_package
+[5.661s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/parent_prefix_path/first_ros_package
+[5.662s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.sh
+[5.662s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.dsv
+[5.662s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.sh
+[5.662s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.dsv
+[5.662s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.bash
+[5.662s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.sh
+[5.662s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.zsh
+[5.662s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.dsv
+[5.663s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.dsv
+[5.663s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/packages/first_ros_package
+[5.663s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig.cmake
+[5.663s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig-version.cmake
+[5.663s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.xml
+[5.665s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/first_ros_package

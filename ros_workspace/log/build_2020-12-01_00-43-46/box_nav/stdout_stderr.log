@@ -1,0 +1,35 @@
+-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.13.6 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.6 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found slam_toolbox: 2.3.0 (/opt/ros/foxy/share/slam_toolbox/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/box_nav
+[100%] Built target lidar_odometry
+-- Install configuration: ""
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/lib/box_nav/lidar_odometry
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/package_run_dependencies/box_nav
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/parent_prefix_path/box_nav
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.bash
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.sh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.zsh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.dsv
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/packages/box_nav
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig.cmake
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig-version.cmake
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.xml

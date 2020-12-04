@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target lidar_odometry[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lidar_odometry[0m
+[100%] Built target lidar_odometry
+-- Install configuration: ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/lib/box_nav/lidar_odometry
+-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/box_nav/lib/box_nav/lidar_odometry" to ""
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/package_run_dependencies/box_nav
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/parent_prefix_path/box_nav
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.sh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.bash
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.sh
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.zsh
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.dsv
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/packages/box_nav
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig.cmake
+-- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig-version.cmake
+-- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.xml

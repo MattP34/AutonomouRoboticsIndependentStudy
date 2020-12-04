@@ -1,0 +1,10 @@
+CMake Error at CMakeLists.txt:37:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/propp/Independent_Study/ros_workspace/build/box_nav/CMakeFiles/CMakeOutput.log".
+See also "/home/propp/Independent_Study/ros_workspace/build/box_nav/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266: cmake_check_build_system] Error 1

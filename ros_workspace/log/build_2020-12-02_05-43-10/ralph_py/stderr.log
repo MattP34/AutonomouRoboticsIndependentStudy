@@ -1,0 +1,5 @@
+  File "/home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py/ralph.py", line 84
+    twist_msg.angular. = Vector3()
+                       ^
+SyntaxError: invalid syntax
+

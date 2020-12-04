@@ -1,0 +1,1 @@
+Invoking command in '/home/propp/Independent_Study/ros_workspace/build/all_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/all_points -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/all_points

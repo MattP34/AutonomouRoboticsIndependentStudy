@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o[0m
+[0.157s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[0.158s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+[0.158s]    51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[0.158s]       |      [01;35m[K^~~~~~~[m[K
+[0.482s] In file included from [01m[K/opt/ros/foxy/include/slam_toolbox/slam_toolbox_common.hpp:40[m[K,
+[0.482s]                  from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:31[m[K:
+[0.482s] [01m[K/opt/ros/foxy/include/tf2_sensor_msgs/tf2_sensor_msgs.h:37:10:[m[K [01;31m[Kfatal error: [m[KEigen/Eigen: No such file or directory
+[0.482s]    37 | #include [01;31m[K<Eigen/Eigen>[m[K
+[0.482s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.482s] compilation terminated.
+[0.486s] make[2]: *** [CMakeFiles/lidar_odometry.dir/build.make:63: CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o] Error 1
+[0.486s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar_odometry.dir/all] Error 2
+[0.487s] make: *** [Makefile:141: all] Error 2
+[0.488s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12

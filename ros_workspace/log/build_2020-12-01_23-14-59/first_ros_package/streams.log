@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[0.060s] [35m[1mScanning dependencies of target odometryTfConverter[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/odometryTfConverter.dir/src/odometry_to_tf.cpp.o[0m
+[4.203s] [100%] [32m[1mLinking CXX executable odometryTfConverter[0m
+[4.426s] [100%] Built target odometryTfConverter
+[4.434s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[4.454s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/first_ros_package
+[4.460s] -- Install configuration: ""
+[4.461s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter
+[4.463s] -- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/first_ros_package/lib/first_ros_package/odometryTfConverter" to ""
+[4.463s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/package_run_dependencies/first_ros_package
+[4.463s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/parent_prefix_path/first_ros_package
+[4.463s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.sh
+[4.463s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.dsv
+[4.463s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.sh
+[4.463s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/environment/path.dsv
+[4.464s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.bash
+[4.464s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.sh
+[4.464s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.zsh
+[4.464s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/local_setup.dsv
+[4.464s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.dsv
+[4.464s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/ament_index/resource_index/packages/first_ros_package
+[4.464s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig.cmake
+[4.464s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig-version.cmake
+[4.465s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/first_ros_package/share/first_ros_package/package.xml
+[4.466s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/first_ros_package

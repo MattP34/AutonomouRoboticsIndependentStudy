@@ -1,0 +1,14 @@
+In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+   51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:[m[K In member function ‘[01m[Kvoid AllPointsPublisher::topic_callback(std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:60:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint index[m[K’
+   60 |             int [01;31m[Kindex[m[K = ((angle - (-3.141592653589)) / (3.141592653589/50));
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:58:20:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kdouble index[m[K’
+   58 |             double [01;36m[Kindex[m[K = ((angle - (-3.141592653589)) / (3.141592653589/50));
+      |                    [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/all_points_trans.dir/build.make:63: CMakeFiles/all_points_trans.dir/src/all_points.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/all_points_trans.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

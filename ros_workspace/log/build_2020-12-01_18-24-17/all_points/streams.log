@@ -1,0 +1,37 @@
+[0.021s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/all_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/all_points -- -j12 -l12
+[0.063s] [35m[1mScanning dependencies of target all_points_trans[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/all_points_trans.dir/src/all_points.cpp.o[0m
+[0.187s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[0.187s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+[0.187s]    51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[0.187s]       |      [01;35m[K^~~~~~~[m[K
+[1.131s] [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:[m[K In member function ‘[01m[Kvoid AllPointsPublisher::topic_callback(std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[1.131s] [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:30:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.131s]    30 |         sensor_msgs::[01;35m[KconvertPointCloud2ToPointCloud[m[K(*msg,p1);
+[1.131s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.131s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[1.131s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.131s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.131s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.131s] [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:30:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.132s]    30 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+[1.132s]       |                                                            [01;35m[K^[m[K
+[1.132s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[1.132s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.132s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.132s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.132s] [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:30:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.132s]    30 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+[1.132s]       |                                                            [01;35m[K^[m[K
+[1.132s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/all_points/src/all_points.cpp:14[m[K:
+[1.132s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.132s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.132s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.175s] [100%] [32m[1mLinking CXX executable all_points_trans[0m
+[2.268s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.268s] (.text+0x24): undefined reference to `main'
+[2.269s] collect2: error: ld returned 1 exit status
+[2.270s] make[2]: *** [CMakeFiles/all_points_trans.dir/build.make:176: all_points_trans] Error 1
+[2.271s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/all_points_trans.dir/all] Error 2
+[2.271s] make: *** [Makefile:141: all] Error 2
+[2.272s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/all_points' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/all_points -- -j12 -l12

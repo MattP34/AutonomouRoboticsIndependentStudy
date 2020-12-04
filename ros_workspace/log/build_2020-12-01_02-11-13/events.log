@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict()}
+[0.000364] (box_nav) JobQueued: {'identifier': 'box_nav', 'dependencies': OrderedDict([('pointcloud_to_laserscan', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan')])}
+[0.001410] (pointcloud_to_laserscan) JobStarted: {'identifier': 'pointcloud_to_laserscan'}
+[0.009551] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'cmake'}
+[0.009869] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '/home/propp/Independent_Study/ros_workspace/src/pointcloud_to_laserscan', '-DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan'], 'cwd': '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'propp'), ('SSH_AGENT_PID', '1864'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib:/home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_util/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/propp'), ('OLDPWD', '/home/propp/Independent_Study/ros_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/opt/gradle/gradle-6.1'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1681'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/propp/ros2_foxy/ros2-linux'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'propp'), ('JOURNAL_STREAM', '9:40729'), ('_', '/home/propp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'propp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/propp/.local/bin:/opt/gradle/gradle-6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Propp-PC:@/tmp/.ICE-unix/1900,unix/Propp-PC:/tmp/.ICE-unix/1900'), ('INVOCATION_ID', '4151d07956b440f0b63c4ff0a1df31cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8e37dca_843f_429a_8774_021fab008eed'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/home/propp/Independent_Study/ros_workspace/install/dwb_msgs:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid:/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.053767] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.095403] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.099097] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099991] (-) TimerEvent: {}
+[0.150391] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.151366] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200084] (-) TimerEvent: {}
+[0.203576] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.213258] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.213557] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.215275] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.273723] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.274514] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300178] (-) TimerEvent: {}
+[0.335627] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.345276] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.345674] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.347284] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.365361] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.365525] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400252] (-) TimerEvent: {}
+[0.500487] (-) TimerEvent: {}
+[0.517187] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[0.524326] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found message_filters: 3.2.4 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[0.527035] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.552777] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.558576] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600604] (-) TimerEvent: {}
+[0.624099] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.641217] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.700688] (-) TimerEvent: {}
+[0.701598] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.746739] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.747854] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.748645] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800773] (-) TimerEvent: {}
+[0.802381] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.802555] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.857814] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.857986] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.900859] (-) TimerEvent: {}
+[0.901565] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.901731] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.954577] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.955887] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000968] (-) TimerEvent: {}
+[1.080567] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp_components: 2.2.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.101083] (-) TimerEvent: {}
+[1.130722] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.201193] (-) TimerEvent: {}
+[1.226016] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found tf2: 0.13.6 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.234194] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.6 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.301311] (-) TimerEvent: {}
+[1.401554] (-) TimerEvent: {}
+[1.458600] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.6 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[1.496421] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.501671] (-) TimerEvent: {}
+[1.554128] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.554567] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/propp/Independent_Study/ros_workspace/src/pointcloud_to_laserscan/include\n'}
+[1.554681] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.556933] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.557052] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.557713] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.558548] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.559380] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.561746] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.561858] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.562396] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.565220] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.592058] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Generating done\n'}
+[1.593768] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan\n'}
+[1.600161] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[1.600860] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'build'}
+[1.601799] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan', '--', '-j12', '-l12'], 'cwd': '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'propp'), ('SSH_AGENT_PID', '1864'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib:/home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_util/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/propp'), ('OLDPWD', '/home/propp/Independent_Study/ros_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/opt/gradle/gradle-6.1'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1681'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/propp/ros2_foxy/ros2-linux'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'propp'), ('JOURNAL_STREAM', '9:40729'), ('_', '/home/propp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'propp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/propp/.local/bin:/opt/gradle/gradle-6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Propp-PC:@/tmp/.ICE-unix/1900,unix/Propp-PC:/tmp/.ICE-unix/1900'), ('INVOCATION_ID', '4151d07956b440f0b63c4ff0a1df31cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8e37dca_843f_429a_8774_021fab008eed'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/home/propp/Independent_Study/ros_workspace/install/dwb_msgs:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid:/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[1.603996] (-) TimerEvent: {}
+[1.636992] (pointcloud_to_laserscan) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pointcloud_to_laserscan_node\x1b[0m\n'}
+[1.637210] (pointcloud_to_laserscan) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target laserscan_to_pointcloud_node\x1b[0m\n'}
+[1.637321] (pointcloud_to_laserscan) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target laserscan_to_pointcloud\x1b[0m\n'}
+[1.639569] (pointcloud_to_laserscan) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dummy_pointcloud_publisher\x1b[0m\n'}
+[1.639736] (pointcloud_to_laserscan) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pointcloud_to_laserscan\x1b[0m\n'}
+[1.667418] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[1.668793] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[1.679261] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o\x1b[0m\n'}
+[1.697680] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[1.704081] (-) TimerEvent: {}
+[1.716022] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[1.804198] (-) TimerEvent: {}
+[1.904532] (-) TimerEvent: {}
+[2.004867] (-) TimerEvent: {}
+[2.105317] (-) TimerEvent: {}
+[2.205631] (-) TimerEvent: {}
+[2.305957] (-) TimerEvent: {}
+[2.406278] (-) TimerEvent: {}
+[2.506605] (-) TimerEvent: {}
+[2.606921] (-) TimerEvent: {}
+[2.707232] (-) TimerEvent: {}
+[2.807569] (-) TimerEvent: {}
+[2.907872] (-) TimerEvent: {}
+[3.008178] (-) TimerEvent: {}
+[3.108484] (-) TimerEvent: {}
+[3.208795] (-) TimerEvent: {}
+[3.309094] (-) TimerEvent: {}
+[3.394821] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable laserscan_to_pointcloud_node\x1b[0m\n'}
+[3.396473] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_to_laserscan_node\x1b[0m\n'}
+[3.409195] (-) TimerEvent: {}
+[3.509498] (-) TimerEvent: {}
+[3.529413] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 70%] Built target laserscan_to_pointcloud_node\n'}
+[3.529646] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 70%] Built target pointcloud_to_laserscan_node\n'}
+[3.609612] (-) TimerEvent: {}
+[3.709891] (-) TimerEvent: {}
+[3.810165] (-) TimerEvent: {}
+[3.910477] (-) TimerEvent: {}
+[4.010771] (-) TimerEvent: {}
+[4.111038] (-) TimerEvent: {}
+[4.211405] (-) TimerEvent: {}
+[4.310461] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable dummy_pointcloud_publisher\x1b[0m\n'}
+[4.311441] (-) TimerEvent: {}
+[4.411699] (-) TimerEvent: {}
+[4.459622] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] Built target dummy_pointcloud_publisher\n'}
+[4.511807] (-) TimerEvent: {}
+[4.612113] (-) TimerEvent: {}
+[4.712417] (-) TimerEvent: {}
+[4.812716] (-) TimerEvent: {}
+[4.913017] (-) TimerEvent: {}
+[5.013310] (-) TimerEvent: {}
+[5.113614] (-) TimerEvent: {}
+[5.213952] (-) TimerEvent: {}
+[5.314236] (-) TimerEvent: {}
+[5.414553] (-) TimerEvent: {}
+[5.514839] (-) TimerEvent: {}
+[5.615121] (-) TimerEvent: {}
+[5.715423] (-) TimerEvent: {}
+[5.815744] (-) TimerEvent: {}
+[5.916099] (-) TimerEvent: {}
+[6.016438] (-) TimerEvent: {}
+[6.116831] (-) TimerEvent: {}
+[6.217123] (-) TimerEvent: {}
+[6.317364] (-) TimerEvent: {}
+[6.417636] (-) TimerEvent: {}
+[6.517936] (-) TimerEvent: {}
+[6.618218] (-) TimerEvent: {}
+[6.718467] (-) TimerEvent: {}
+[6.818722] (-) TimerEvent: {}
+[6.918938] (-) TimerEvent: {}
+[7.019183] (-) TimerEvent: {}
+[7.119506] (-) TimerEvent: {}
+[7.219722] (-) TimerEvent: {}
+[7.319972] (-) TimerEvent: {}
+[7.420225] (-) TimerEvent: {}
+[7.520561] (-) TimerEvent: {}
+[7.620874] (-) TimerEvent: {}
+[7.721170] (-) TimerEvent: {}
+[7.821409] (-) TimerEvent: {}
+[7.921672] (-) TimerEvent: {}
+[8.022070] (-) TimerEvent: {}
+[8.122443] (-) TimerEvent: {}
+[8.222690] (-) TimerEvent: {}
+[8.322957] (-) TimerEvent: {}
+[8.397174] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library liblaserscan_to_pointcloud.so\x1b[0m\n'}
+[8.423048] (-) TimerEvent: {}
+[8.493382] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpointcloud_to_laserscan.so\x1b[0m\n'}
+[8.523139] (-) TimerEvent: {}
+[8.623393] (-) TimerEvent: {}
+[8.723710] (-) TimerEvent: {}
+[8.740981] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target laserscan_to_pointcloud\n'}
+[8.823812] (-) TimerEvent: {}
+[8.828459] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target pointcloud_to_laserscan\n'}
+[8.836377] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[8.864280] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'install'}
+[8.872729] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan'], 'cwd': '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'propp'), ('SSH_AGENT_PID', '1864'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib:/home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_util/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/propp'), ('OLDPWD', '/home/propp/Independent_Study/ros_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/opt/gradle/gradle-6.1'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1681'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/propp/ros2_foxy/ros2-linux'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'propp'), ('JOURNAL_STREAM', '9:40729'), ('_', '/home/propp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'propp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/propp/.local/bin:/opt/gradle/gradle-6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Propp-PC:@/tmp/.ICE-unix/1900,unix/Propp-PC:/tmp/.ICE-unix/1900'), ('INVOCATION_ID', '4151d07956b440f0b63c4ff0a1df31cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8e37dca_843f_429a_8774_021fab008eed'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/home/propp/Independent_Study/ros_workspace/install/dwb_msgs:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid:/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[8.880972] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.881230] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node\n'}
+[8.881610] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node" to ""\n'}
+[8.881717] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node\n'}
+[8.882259] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node" to ""\n'}
+[8.882339] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so\n'}
+[8.886170] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so" to ""\n'}
+[8.886334] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so\n'}
+[8.890251] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""\n'}
+[8.890524] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher\n'}
+[8.891196] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""\n'}
+[8.891365] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include\n'}
+[8.891430] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan\n'}
+[8.891497] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp\n'}
+[8.891560] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp\n'}
+[8.891622] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/visibility_control.h\n'}
+[8.891683] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch\n'}
+[8.891733] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py\n'}
+[8.891796] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py\n'}
+[8.891854] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan\n'}
+[8.891929] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan\n'}
+[8.892038] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh\n'}
+[8.892129] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv\n'}
+[8.892222] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh\n'}
+[8.892312] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv\n'}
+[8.892401] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash\n'}
+[8.892490] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh\n'}
+[8.892609] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh\n'}
+[8.892691] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv\n'}
+[8.892783] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv\n'}
+[8.892929] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan\n'}
+[8.893039] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan\n'}
+[8.893149] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake\n'}
+[8.893238] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake\n'}
+[8.893335] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml\n'}
+[8.894696] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[8.923925] (-) TimerEvent: {}
+[8.942547] (pointcloud_to_laserscan) JobEnded: {'identifier': 'pointcloud_to_laserscan', 'rc': 0}
+[8.945326] (box_nav) JobStarted: {'identifier': 'box_nav'}
+[8.950443] (box_nav) JobProgress: {'identifier': 'box_nav', 'progress': 'cmake'}
+[8.951066] (box_nav) JobProgress: {'identifier': 'box_nav', 'progress': 'build'}
+[8.951323] (box_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/propp/Independent_Study/ros_workspace/build/box_nav', '--', '-j12', '-l12'], 'cwd': '/home/propp/Independent_Study/ros_workspace/build/box_nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'propp'), ('SSH_AGENT_PID', '1864'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/lib:/home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_util/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/propp'), ('OLDPWD', '/home/propp/Independent_Study/ros_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/opt/gradle/gradle-6.1'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1681'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/propp/ros2_foxy/ros2-linux'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'propp'), ('JOURNAL_STREAM', '9:40729'), ('_', '/home/propp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'propp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/propp/.local/bin:/opt/gradle/gradle-6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Propp-PC:@/tmp/.ICE-unix/1900,unix/Propp-PC:/tmp/.ICE-unix/1900'), ('INVOCATION_ID', '4151d07956b440f0b63c4ff0a1df31cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8e37dca_843f_429a_8774_021fab008eed'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/propp/Independent_Study/ros_workspace/build/box_nav'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan:/home/propp/Independent_Study/ros_workspace/install/dwb_msgs:/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid:/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:/home/propp/Independent_Study/ros_workspace/install/first_ros_package:/home/propp/Independent_Study/ros_workspace/install/box_nav:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[8.974171] (box_nav) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[8.990475] (box_nav) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.023987] (-) TimerEvent: {}
+[9.124279] (-) TimerEvent: {}
+[9.130899] (box_nav) StdoutLine: {'line': b'-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[9.149564] (box_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.152384] (box_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.224394] (-) TimerEvent: {}
+[9.243194] (box_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.283151] (box_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[9.284260] (box_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.324481] (-) TimerEvent: {}
+[9.401475] (box_nav) StdoutLine: {'line': b'-- Found tf2: 0.13.6 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[9.424602] (-) TimerEvent: {}
+[9.439460] (box_nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.6 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[9.524676] (-) TimerEvent: {}
+[9.624904] (-) TimerEvent: {}
+[9.709360] (box_nav) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[9.724993] (-) TimerEvent: {}
+[9.769808] (box_nav) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[9.825082] (-) TimerEvent: {}
+[9.828750] (box_nav) StdoutLine: {'line': b'-- Found pointcloud_to_laserscan: 2.0.0 (/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake)\n'}
+[9.878699] (box_nav) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.888833] (box_nav) StdoutLine: {'line': b'-- Generating done\n'}
+[9.890217] (box_nav) StdoutLine: {'line': b'-- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/box_nav\n'}
+[9.912250] (box_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_odometry\x1b[0m\n'}
+[9.925192] (-) TimerEvent: {}
+[9.945614] (box_nav) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o\x1b[0m\n'}
+[10.025288] (-) TimerEvent: {}
+[10.032497] (box_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28\x1b[m\x1b[K:\n'}
+[10.032677] (box_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[10.032781] (box_nav) StderrLine: {'line': b'   51 | #    \x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[10.032835] (box_nav) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.033645] (box_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:32:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpointcloud_to_laserscan: No such file or directory\n'}
+[10.033718] (box_nav) StderrLine: {'line': b'   32 | #include \x1b[01;31m\x1b[K"pointcloud_to_laserscan"\x1b[m\x1b[K\n'}
+[10.033788] (box_nav) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.033853] (box_nav) StderrLine: {'line': b'compilation terminated.\n'}
+[10.035241] (box_nav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lidar_odometry.dir/build.make:63: CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o] Error 1\n'}
+[10.035396] (box_nav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar_odometry.dir/all] Error 2\n'}
+[10.035607] (box_nav) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.037430] (box_nav) CommandEnded: {'returncode': 2}
+[10.063402] (box_nav) JobEnded: {'identifier': 'box_nav', 'rc': 2}
+[10.073833] (-) EventReactorShutdown: {}

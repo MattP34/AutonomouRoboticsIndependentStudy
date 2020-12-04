@@ -1,0 +1,68 @@
+[0.016s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[0.052s] [35m[1mScanning dependencies of target lidar_odometry[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_odometry.dir/src/lidar_odometry.cpp.o[0m
+[0.161s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[0.161s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+[0.161s]    51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[0.161s]       |      [01;35m[K^~~~~~~[m[K
+[1.053s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid OdometryFromLidar::topic_callback(std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[1.053s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:56:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.053s]    56 |         sensor_msgs::[01;35m[KconvertPointCloud2ToPointCloud[m[K(*msg,p1);
+[1.053s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.053s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[1.054s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.054s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.054s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.054s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:56:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.054s]    56 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+[1.054s]       |                                                            [01;35m[K^[m[K
+[1.054s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[1.054s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.054s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.054s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.054s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:56:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloud2ToPointCloud(const PointCloud2&, sensor_msgs::msg::PointCloud&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy if favor of sensor_msgs/PointCloud2. [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.054s]    56 |         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1[01;35m[K)[m[K;
+[1.054s]       |                                                            [01;35m[K^[m[K
+[1.054s] In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:28[m[K:
+[1.054s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:140:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.054s]   140 | static inline bool [01;36m[KconvertPointCloud2ToPointCloud[m[K(
+[1.054s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.055s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:57:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point32_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point32_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.055s]    57 |         for(int i = 0; [01;35m[Ki < p1.points.size()[m[K; i++) {
+[1.055s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[1.055s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:68:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point32_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point32_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.055s]    68 |         for(int i = 0; [01;35m[Ki < p1.points.size()[m[K; i++) {
+[1.055s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[1.055s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:71:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point32_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point32_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.055s]    71 |         for(int i = 0; [01;35m[Ki < lastPoints.points.size()[m[K; i++) {
+[1.055s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.067s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kint OdometryFromLidar::closest_point(geometry_msgs::msg::Point32, std::vector<geometry_msgs::msg::Point32_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point32_<std::allocator<void> > > >)[m[K’:
+[1.067s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:187:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresidual[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.067s]   187 |         double [01;35m[Kresidual[m[K = 10000000.0; //big number
+[1.067s]       |                [01;35m[K^~~~~~~~[m[K
+[1.067s] [01m[K/home/propp/Independent_Study/ros_workspace/src/box_nav/src/lidar_odometry.cpp:188:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KreturnIndex[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.067s]   188 |         int [01;35m[KreturnIndex[m[K = 0;
+[1.067s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[4.809s] [100%] [32m[1mLinking CXX executable lidar_odometry[0m
+[5.085s] [100%] Built target lidar_odometry
+[5.094s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/box_nav -- -j12 -l12
+[5.115s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/box_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/box_nav
+[5.123s] -- Install configuration: ""
+[5.123s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/lib/box_nav/lidar_odometry
+[5.125s] -- Set runtime path of "/home/propp/Independent_Study/ros_workspace/install/box_nav/lib/box_nav/lidar_odometry" to ""
+[5.125s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/package_run_dependencies/box_nav
+[5.125s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/parent_prefix_path/box_nav
+[5.125s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.sh
+[5.125s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/ament_prefix_path.dsv
+[5.125s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.sh
+[5.125s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/environment/path.dsv
+[5.126s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.bash
+[5.126s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.sh
+[5.126s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.zsh
+[5.126s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/local_setup.dsv
+[5.126s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.dsv
+[5.126s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/ament_index/resource_index/packages/box_nav
+[5.126s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig.cmake
+[5.127s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/cmake/box_navConfig-version.cmake
+[5.128s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/box_nav/share/box_nav/package.xml
+[5.128s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/box_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/box_nav

@@ -1,0 +1,24 @@
+[0.196s] Invoking command in '/home/propp/Independent_Study/ros_workspace/src/ralph_py': PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ralph_py build --build-base /home/propp/Independent_Study/ros_workspace/build/ralph_py/build install --prefix /home/propp/Independent_Study/ros_workspace/install/ralph_py --record /home/propp/Independent_Study/ros_workspace/build/ralph_py/install.log --single-version-externally-managed
+[0.367s] running egg_info
+[0.368s] writing ../../build/ralph_py/ralph_py.egg-info/PKG-INFO
+[0.368s] writing dependency_links to ../../build/ralph_py/ralph_py.egg-info/dependency_links.txt
+[0.368s] writing entry points to ../../build/ralph_py/ralph_py.egg-info/entry_points.txt
+[0.368s] writing requirements to ../../build/ralph_py/ralph_py.egg-info/requires.txt
+[0.368s] writing top-level names to ../../build/ralph_py/ralph_py.egg-info/top_level.txt
+[0.393s] reading manifest file '../../build/ralph_py/ralph_py.egg-info/SOURCES.txt'
+[0.393s] writing manifest file '../../build/ralph_py/ralph_py.egg-info/SOURCES.txt'
+[0.394s] running build
+[0.394s] running build_py
+[0.394s] copying ralph_py/ralph.py -> /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py
+[0.394s] running install
+[0.395s] running install_lib
+[0.396s] copying /home/propp/Independent_Study/ros_workspace/build/ralph_py/build/lib/ralph_py/ralph.py -> /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py
+[0.396s] byte-compiling /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py/ralph.py to ralph.cpython-38.pyc
+[0.399s] running install_data
+[0.399s] running install_egg_info
+[0.401s] removing '/home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.401s] Copying ../../build/ralph_py/ralph_py.egg-info to /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages/ralph_py-0.0.0-py3.8.egg-info
+[0.401s] running install_scripts
+[0.416s] Installing ralph_node script to /home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/ralph_py
+[0.417s] writing list of installed files to '/home/propp/Independent_Study/ros_workspace/build/ralph_py/install.log'
+[0.435s] Invoked command in '/home/propp/Independent_Study/ros_workspace/src/ralph_py' returned '0': PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/ralph_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ralph_py build --build-base /home/propp/Independent_Study/ros_workspace/build/ralph_py/build install --prefix /home/propp/Independent_Study/ros_workspace/install/ralph_py --record /home/propp/Independent_Study/ros_workspace/build/ralph_py/install.log --single-version-externally-managed
